@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 function TodoList({todos}) {
   return (
-    <div>
+    <div  className='container'>
     {todos.map((todo, index) => (
-        <div key={index}>{todo} </div>
+        <div className='todo-item' key={index}>{todo} </div>
     ))}
     </div>
   )
