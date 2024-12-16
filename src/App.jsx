@@ -16,7 +16,8 @@ function App() {
 
   return (
     <>
-     <TodoItem input={input} setInputValue={setInputValue} addTodo={addTodo} />
+     <TodoItem input={input} setInputValue={setInputValue} addTodo={addTodo}
+     />
      <TodoList todos={todos} setTodos={setTodos} />
 
     </>
