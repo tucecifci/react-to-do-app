@@ -1,8 +1,6 @@
 import React from 'react'
 
-
 function TodoItem({input, setInputValue, addTodo}) {
-
   const handleKeyDown = (e) =>{
     if(e.key === "Enter"){
       addTodo();
