@@ -40,5 +40,25 @@ h1{
   align-items: center;
   padding: 5px;
   border-bottom: 1px solid #929191;
- 
+}
+.popup{
+  position: fixed;
+  top: 30px; /* Ekranın üstünden 20px mesafe */
+  right: 30px; /* Sağdan 20px mesafe */
+  background-color: #a8edea; 
+  color: black; /* Yazı rengi */
+  padding: 10px 20px; /* İç boşluk */
+  border-radius: 5px; /* Köşeleri yuvarlak yapar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+  font-size: 16px; /* Yazı boyutu */
+  font-weight: bold; /* Kalın yazı */
+  animation: fadeOut 3s forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1; /* Başlangıçta görünür */
+  }
+  100% {
+    opacity: 0; /* Animasyon sonunda görünmez */
+  }
 }
